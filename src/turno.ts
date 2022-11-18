@@ -1,3 +1,10 @@
+// Enumerado que indica el tipo de turno que hay en la peluquería
+
+export enum TipoTurno {
+    Mañana = 'Mañana',
+    Tarde = 'Tarde'
+}
+
 // Objeto valor que almacena la información acerca de cada turno
 
 export class Turno {
@@ -15,4 +22,3 @@ export class Turno {
         this.citas = citas;
         this.trabajador = trabajador;
     }
-}
