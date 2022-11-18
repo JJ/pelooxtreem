@@ -1,4 +1,4 @@
-enum Servicio{
+export enum Servicio{
   corteHombre = "Corte Hombre",
   corteMujer = "Corte Mujer",
   mechasHombre = "Mechas Hombre",
@@ -13,9 +13,9 @@ enum Servicio{
 
 
 export class Trabajador{
-  private servicio: Servicio[];
+  private servicios: Servicio[];
 
   constructor(servicios: Servicio[]){
-    servicios = servicios;
+    this.servicios = servicios;
   }
 }
