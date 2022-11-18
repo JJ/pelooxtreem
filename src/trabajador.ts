@@ -13,7 +13,7 @@ enum Servicio{
 
 
 export class Trabajador{
-  private servicio: Servicio[];
+  private servicios: Servicio[];
 
   constructor(servicios: Servicio[]){
     servicios = servicios;
