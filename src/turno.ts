@@ -2,11 +2,17 @@
 
 export class Turno {
     // Tipo de turno que le toca al trabajador (mañana o tarde)
-    tipo_turno: TipoTurno;
+    private tipo_turno: TipoTurno;
 
     // Lista de citas que constituyen cada turno
-    citas: Cita[];
+    private citas: Cita[];
 
     // Trabajador que atiende dicho turno
-    trabajador: Trabajador;
+    private trabajador: Trabajador;
+
+    constructor (tipo_turno: TipoTurno, citas: Cita[], trabajador: Trabajador) {
+        this.tipo_turno = tipo_turno;
+        this.citas = citas;
+        this.trabajador = trabajador;
+    }
 }
