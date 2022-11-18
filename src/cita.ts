@@ -1,21 +1,14 @@
-import { Trabajador } from "./trabajador.ts";
 import { Servicio } from "./servicio.ts"
 
 class Cita{
-    trabajador : Trabajador;
     fecha_hora : Date;
     tipo_servicio: Servicio;
 
-    constructor(trabajador: Trabajador, fecha_hora: Date, tipo_servicio: Servicio){
-        this.trabajador = trabajador;
+    constructor(fecha_hora: Date, tipo_servicio: Servicio){
         this.fecha_hora = fecha_hora;
         this.tipo_servicio = tipo_servicio;
     }
-
-    get Trabajador(){
-        return this.trabajador;
-    }
-
+    
     get Fecha_Hora(){
         return this.fecha_hora;
     }
