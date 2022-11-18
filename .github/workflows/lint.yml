@@ -11,4 +11,4 @@ jobs:
     - name: Fuentes
       uses: actions/checkout@v3
     - name: Check
-      runs: deno compile lib/*.ts
+      runs: deno compile src/*.ts
