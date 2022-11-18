@@ -1,5 +1,5 @@
 import { Turno } from "./turno.ts";
-import {Servicio} from "./servicio.ts"
+import { Servicio } from "./servicio.ts"
 
 class Informe{
     fecha: Date;
