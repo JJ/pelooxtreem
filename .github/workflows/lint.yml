@@ -1,5 +1,5 @@
 name: lint deno
-on: [push, pull_request–
+on: [push, pull_request]
 jobs:
   linting:
     runs-on: ubuntu-latest
