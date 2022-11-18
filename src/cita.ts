@@ -1,3 +1,6 @@
+import { Trabajador } from "./trabajador.ts";
+import { Servicio } from "./servicio.ts"
+
 class Cita{
     trabajador : Trabajador;
     fecha_hora : Date;
