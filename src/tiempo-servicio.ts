@@ -14,7 +14,7 @@ export class TiempoServicio{
     tiempoUtil: Duration;
 
     // Los tiempos han de estar en el siguiente formato: 1h1m2s
-    constructor(nombre:string, tiempoTotal:string, tiempoUtil: String){
+    constructor(nombre:string, tiempoTotal:string, tiempoUtil: string){
         this.nombre = nombre;
         this.tiempoTotal = Duration.fromString(tiempoTotal);
         this.tiempoUtil = Duration.fromString(tiempoUtil);
