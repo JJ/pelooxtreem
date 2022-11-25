@@ -1,10 +1,10 @@
-import Duration from "https://deno.land/x/durationjs@v4.0.0/mod.ts"; 
+import Duration from "https://deno.land/x/durationjs@v4.1.0/mod.ts"; 
 
 
 export class TiempoServicio{
 
     // Nombre del servicio
-    nombre: String;
+    nombre: string;
 
     // Duración medio total que se tarda en realizar servicio
     tiempoTotal: Duration;
