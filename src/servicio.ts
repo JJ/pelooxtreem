@@ -11,7 +11,7 @@ export enum tipos_servicio {
   extensiones = "Extensiones"
 }
 
-export Type Servicio {
+export Type Servicio = {
   nombre: string;
   tiempo: string;
 };
