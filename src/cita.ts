@@ -1,6 +1,6 @@
 import { Servicio } from "./servicio.ts"
 
-class Cita{
+class Cita {
     fecha_hora : Date;
     tipo_servicio: Servicio;
 
