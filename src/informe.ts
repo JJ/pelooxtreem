@@ -1,6 +1,7 @@
 import { Turno } from "./turno.ts";
 import { Servicio } from "./servicio.ts"
 
+// deno-lint-ignore no-unused-vars
 class Informe {
     fecha: Date;
     turno: Turno;
