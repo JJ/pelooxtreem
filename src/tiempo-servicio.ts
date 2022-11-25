@@ -1,4 +1,5 @@
-import Duration from "https://deno.land/x/durationjs@v4.0.0/mod.ts"; 
+import Duration from "https://deno.land/x/durationjs@v4.1.0/mod.ts"; 
+
 
 
 export class TiempoServicio{
