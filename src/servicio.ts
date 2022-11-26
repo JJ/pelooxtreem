@@ -1,2 +1,2 @@
-export class Servicio{
+export class Servicio {
 }
