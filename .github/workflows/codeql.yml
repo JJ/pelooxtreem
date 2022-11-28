@@ -5,7 +5,7 @@ on:
       - "**/*.ts"
       - .github/workflows/codeql.yml
   pull_request:
-    - paths: "**/*.ts"
+    paths: "**/*.ts"
 jobs:
   linting:
     runs-on: ubuntu-latest
