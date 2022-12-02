@@ -1,7 +1,7 @@
 import { assertArrayIncludes, assertEquals, assertInstanceOf, assertNotInstanceOf } from "https://deno.land/std@0.167.0/testing/asserts.ts";
 import { Cita } from "../src/cita.ts";
 import { Servicio } from "../src/servicio.ts";
-import { Trabajador } from "../src/trabajador.ts";
+import { Trabajador, Servicio as ServicioEnum } from "../src/trabajador.ts";
 import { TipoTurno, Turno } from "../src/turno.ts"
 
 // Necesitamos realizar las siguientes comprobaciones en la clase Turno como se ha comentado en el issue #18:
@@ -18,19 +18,29 @@ Deno.test("Check trabajador to be Trabajador instance", () => {
   assertNotInstanceOf(cita, Trabajador);
 });
 
+Deno.test("Check hora turno to don't be same as other on the same day ", () => {
+  let value = false;
+  console.log(ServicioEnum.alisado)
+  const trabajador = new Trabajador(ServicioEnum.alisado);
+  const cita = new Cita(new Date(), new Servicio());
+  const turno = new Turno(TipoTurno.Maniana, [cita], trabajador);
+  for(var i = 0; i < turno.citas.length && !value; i++)
+  {
+    for(var j = 0; j < turno.citas.length && !value; j++)
+    {
+      if(turno.citas[i].FechaHora === turno.citas[j].FechaHora)
+      {
+        value = true;
+      }
+    }
+  }
+  assertEquals(false, value);
+});
+
 Deno.test("Check tipo turno to be TipoTurno enum value", () => {
   const trabajador = new Trabajador([]);
   let turno = new Turno(TipoTurno.Maniana, [], trabajador);
   assertArrayIncludes(Object.values(TipoTurno), [turno.tipoTurno]);
   turno = new Turno(TipoTurno.Tarde, [], trabajador);
   assertArrayIncludes(Object.values(TipoTurno), [turno.tipoTurno]);
-
-  const url = new URL("./foo.js", "https://deno.land/");
-  assertEquals(url.href, "https://deno.land/foo.js");
-});
-
-
-Deno.test("Check hora turno to don't be same as other on the same day ", () => {
-  const url = new URL("./foo.js", "https://deno.land/");
-  assertEquals(url.href, "https://deno.land/foo.js");
 });
