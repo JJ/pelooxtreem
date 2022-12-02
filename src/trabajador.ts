@@ -8,14 +8,13 @@ export enum Servicio {
   alisado = "Alisado",
   peinado = "Peinado",
   ondulacion = "Ondulacion",
-  extensiones = "Extensiones"
+  extensiones = "Extensiones",
 }
 
-
-export class Trabajador{
+export class Trabajador {
   private serviciosStore: Servicio[];
 
-  constructor(servicios: Servicio[]){
+  constructor(servicios: Servicio[]) {
     this.serviciosStore = servicios;
   }
 
