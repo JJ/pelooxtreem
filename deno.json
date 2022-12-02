@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": false
+  },
+  "lint": {
+    "files": {
+      "include": ["src/"]
+    },
+    "rules": {
+
+    }
+  },
+  "tasks":{
+    
+  }
+}
