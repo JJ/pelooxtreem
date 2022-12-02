@@ -1,8 +1,8 @@
 import { Servicio } from "./servicio.ts"
 
 export class Peluqueria{
-    npuestos: number;
-    servicios: Servicio[];
+    private npuestos: number;
+    private servicios: Servicio[];
 
     constructor(npuestos: number, servicios: Servicio[]){
         this.npuestos = npuestos;
