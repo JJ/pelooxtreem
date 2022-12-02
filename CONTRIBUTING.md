@@ -4,8 +4,9 @@ Esta es la guía de contribución del repositorio.
 
 ### Archivos de código
 
-* Los archivos están nombrados en Camel Case.
-* El código de los archivos siguen las convenciones de TypeScript.
+* Las clases están nombradas en Camel Case.
+* Las propiedades están nombradas en Lower Camel Case.
+* El código de los archivos siguen las [convenciones de typescrypt](https://google.github.io/styleguide/tsguide.html).
 
 ### Issues
 
@@ -15,4 +16,8 @@ Esta es la guía de contribución del repositorio.
 
 * El PR está asociado a algún issue.
 * Se han mirado los demás issues antes de hacer el PR.
-* El código del PR sigue las convenciones de nombres de TypeScrypt.
+* El código del PR sigue las [convenciones de nombres de typescrypt](https://google.github.io/styleguide/tsguide.html).
+
+### Formato del código
+
+* No se usan caracteres especiales en el código
