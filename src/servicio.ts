@@ -1,4 +1,4 @@
-import { TiempoServicio } from "./tiempo-servicio";
+import { TiempoServicio } from "./tiempo-servicio.ts";
 
 export enum tipo_servicio {
   corteHombre = "Corte Hombre",
