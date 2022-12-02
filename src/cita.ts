@@ -1,4 +1,4 @@
-import { Servicio } from "./servicio.ts"
+import { Servicio } from "./trabajador.ts"
 
 export default class Cita {
     fecha_hora : Date;
