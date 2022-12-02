@@ -1,6 +1,6 @@
 import { Servicio } from "./servicio.ts"
 
-class Peluqueria{
+export class Peluqueria{
     npuestos: number;
     servicios: Servicio[];
 
