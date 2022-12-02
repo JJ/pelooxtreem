@@ -4,9 +4,9 @@ Esta es la guía de contribución del repositorio.
 
 ### Archivos de código
 
-* Las clases están nombrados en Camel Case.
-* Las propiedades están nombrados en Lower Camel Case.
-* El código de los archivos siguen las convenciones de TypeScript.
+* Las clases están nombradas en Camel Case.
+* Las propiedades están nombradas en Lower Camel Case.
+* El código de los archivos siguen las [convenciones de TypeScript](https://google.github.io/styleguide/tsguide.html).
 
 ### Issues
 
