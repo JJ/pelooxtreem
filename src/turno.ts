@@ -1,3 +1,6 @@
+import { Trabajador } from "./trabajador.ts";
+import { Cita } from "./cita.ts"
+
 // Enumerado que indica el tipo de turno que hay en la peluquería
 
 export enum TipoTurno {

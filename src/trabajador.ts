@@ -1,4 +1,4 @@
-export enum Servicio{
+export enum Servicio {
   corteHombre = "Corte Hombre",
   corteMujer = "Corte Mujer",
   mechasHombre = "Mechas Hombre",
