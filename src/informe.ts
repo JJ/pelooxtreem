@@ -1,8 +1,7 @@
 import { Turno } from "./turno.ts";
 import { Servicio } from "./servicio.ts"
 
-// deno-lint-ignore no-unused-vars
-class Informe {
+export class Informe {
     fecha: Date;
     turno: Turno;
     nServicio: Map<Servicio, number>;
@@ -18,6 +17,6 @@ class Informe {
         this.nServicio = nServicioParametro;
         this.tMedioServicio = tMedioServicioParametro;
         this.nTrabajador = nTrabajadorParametro;
-        this.tMedioEspera = tMedioEsperaParametro; 
+        this.tMedioEspera = tMedioEsperaParametro;
     }
 }
