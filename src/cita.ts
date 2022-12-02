@@ -1,10 +1,10 @@
-import { Servicio } from "./servicio.ts";
+import { TipoServicio } from "./servicio.ts"
 
-export class Cita {
+export default class Cita {
     fecha_hora : Date;
-    tipo_servicio: Servicio;
+    tipo_servicio: TipoServicio;
 
-    constructor(fecha_hora: Date, tipo_servicio: Servicio){
+    constructor(fecha_hora: Date, tipo_servicio: TipoServicio){
         this.fecha_hora = fecha_hora;
         this.tipo_servicio = tipo_servicio;
     }
