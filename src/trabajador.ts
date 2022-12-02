@@ -14,7 +14,7 @@ export class Trabajador{
 }
 
 export function contieneServicios(serv: TipoServicio[]): boolean{
-  let result:boolean = false;
+  let result = false;
   for(let i= 0; i < serv.length; i++){
     if(Object.values(TipoServicio).includes(serv[i])){
       result = true;
