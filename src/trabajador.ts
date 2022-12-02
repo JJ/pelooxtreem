@@ -13,9 +13,11 @@ export enum Servicio {
 
 
 export class Trabajador{
-  private servicios: Servicio[];
+  private serviciosStore: Servicio[];
 
   constructor(servicios: Servicio[]){
-    this.servicios = servicios;
+    this.serviciosStore = servicios;
   }
+
+  get servicios() { return this.serviciosStore; }
 }
