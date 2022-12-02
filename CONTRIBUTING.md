@@ -5,7 +5,7 @@ Esta es la guía de contribución del repositorio.
 ### Archivos de código
 
 * Los archivos están nombrados en camel Case.
-* El código de los archivos siguen las convenciones de TypeScript.
+* El código de los archivos siguen las [convenciones de TypeScript](https://google.github.io/styleguide/tsguide.html).
 
 ### Issues
 
