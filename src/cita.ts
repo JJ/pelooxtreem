@@ -1,6 +1,5 @@
 import { Servicio } from "./servicio.ts"
 
-// deno-lint-ignore no-unused-vars
 export default class Cita {
     fecha_hora : Date;
     tipo_servicio: Servicio;
