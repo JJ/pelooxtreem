@@ -1,4 +1,4 @@
-import { Servicio } from "./servicio.ts"
+import { Servicio } from "./servicio.ts";
 
 // deno-lint-ignore no-unused-vars
 class Cita {
