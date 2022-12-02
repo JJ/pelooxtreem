@@ -8,7 +8,7 @@ export default class Cita {
         this.fecha_hora = fecha_hora;
         this.tipo_servicio = tipo_servicio;
     }
-    
+
     get Fecha_Hora(){
         return this.fecha_hora;
     }
