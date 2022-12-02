@@ -16,3 +16,7 @@ Esta es la guía de contribución del repositorio.
 * El PR está asociado a algún issue.
 * Se han mirado los demás issues antes de hacer el PR.
 * El código del PR sigue las convenciones de nombres de TypeScrypt.
+
+### Formato del código
+
+* No se usan caracteres especiales en el código
