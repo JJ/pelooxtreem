@@ -25,3 +25,4 @@ export class Turno {
         this.citas = citas;
         this.trabajador = trabajador;
     }
+}

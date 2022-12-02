@@ -1,7 +1,6 @@
 import { Servicio } from "./servicio.ts"
 
-// deno-lint-ignore no-unused-vars
-class Cita {
+export class Cita {
     fecha_hora : Date;
     tipo_servicio: Servicio;
 
@@ -9,7 +8,7 @@ class Cita {
         this.fecha_hora = fecha_hora;
         this.tipo_servicio = tipo_servicio;
     }
-    
+
     get Fecha_Hora(){
         return this.fecha_hora;
     }
