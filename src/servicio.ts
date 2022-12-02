@@ -22,4 +22,4 @@ export class Servicio {
     
     nombre: TipoServicio;
     tiempo: TiempoServicio;
-};
+}
